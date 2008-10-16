@@ -1,18 +1,19 @@
 <!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
-<idea-plugin>
+<idea-plugin url="http://code.google.com/p/traceviewerplugin">
   <name>Trace Viewer Plugin</name>
-  <description>View traces files with highlighting</description>
+  <description>Display and highlight traces files in a console window.</description>
   <version>1.0</version>
-  <vendor>Alcatel-Lucent</vendor>
+  <vendor url="http://code.google.com/p/traceviewerplugin"
+          email="traceviewerplugin@googlegroups.com">TraceViewerPlugin Group</vendor>
   <idea-version since-build="3000"/>
   <application-components>
     <component>
       <option name="workspace" value="true" />
-      <implementation-class>com.nortel.oam.traceviewer.ideaplugin.TraceViewerComponent</implementation-class>
+      <implementation-class>com.idea.plugin.traceviewer.TraceViewerComponent</implementation-class>
     </component>
   </application-components>
   <actions>
-    <action id="TraceViewerAction" class="com.nortel.oam.traceviewer.ideaplugin.TraceViewerAction" text="Trace Viewer"
+    <action id="TraceViewerAction" class="com.idea.plugin.traceviewer.TraceViewerAction" text="Trace Viewer"
             description="View traces files">
       <add-to-group group-id="ToolsMenu" anchor="last"/>
     </action>
