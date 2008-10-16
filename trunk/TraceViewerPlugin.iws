@@ -17,8 +17,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.iws" afterPath="$PROJECT_DIR$/TraceViewerPlugin.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.ipr" afterPath="$PROJECT_DIR$/TraceViewerPlugin.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceWorker.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java" afterPath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/ConfigurationDialog.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/ConfigurationDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceStyle.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceStyle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.iws" afterPath="$PROJECT_DIR$/TraceViewerPlugin.iws" />
+      <change type="DELETED" beforePath="D:\ALU_SVN\TraceViewerPlugin_google\test\com\nortel" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TextAttributesChooserTest.java" afterPath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TextAttributesChooserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceViewer.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceViewer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java" afterPath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TextAttributesChooser.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TextAttributesChooser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java" />
+      <change type="DELETED" beforePath="D:\ALU_SVN\TraceViewerPlugin_google\src\com\nortel" afterPath="" />
     </list>
   </component>
   <component name="ChangeListSynchronizer" />
@@ -178,91 +193,87 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="TraceViewerToolWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TraceViewerToolWindow.java">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="14" selection-start="5310" selection-end="5310" vertical-scroll-proportion="0.8523726">
-              <folding />
+            <state line="165" column="13" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.4917733">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraceViewerConsoleViewImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TraceViewerConsoleViewImpl.java">
+      <file leaf-file-name="TraceViewerAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="39" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.60456944">
-              <folding />
+            <state line="28" column="36" selection-start="994" selection-end="994" vertical-scroll-proportion="0.7824497">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraceWorker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TraceWorker.java">
+      <file leaf-file-name="TracesAnalyzerEngineTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.14938489">
-              <folding />
+            <state line="16" column="20" selection-start="448" selection-end="448" vertical-scroll-proportion="-1.7894737">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="intellijad://intellijad/com/intellij/execution/ui/ConsoleView.java">
+      <file leaf-file-name="TextAttributesChooserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TextAttributesChooserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="13" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.40402195">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TracesAnalyzerEngine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TracesAnalyzerEngine.java">
+      <file leaf-file-name="TraceFileChooserTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="21" selection-start="5538" selection-end="5538" vertical-scroll-proportion="0.9560633">
-              <folding />
+            <state line="15" column="22" selection-start="489" selection-end="489" vertical-scroll-proportion="0.46617916">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraceViewerConfigurationForm.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerConfigurationForm.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TraceViewerComponent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="76" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.44815466">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TracesAnalyzerEngineTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/nortel/oam/traceviewer/ideaplugin/core/TracesAnalyzerEngineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="36" selection-start="1977" selection-end="1977" vertical-scroll-proportion="1.1245488">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraceViewerConfigurationForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerConfigurationForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="18" selection-start="10113" selection-end="10113" vertical-scroll-proportion="0.31107205">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraceStyle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TraceStyle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="3" selection-start="5690" selection-end="5690" vertical-scroll-proportion="0.7557118">
+            <state line="147" column="32" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.33272395">
               <folding>
-                <marker date="1213778178652" expanded="true" signature="5683:5690" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraceViewerConfigurationForm.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerConfigurationForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="35" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.64351004">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="23" selection-start="958" selection-end="958" vertical-scroll-proportion="0.5904936">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -388,7 +399,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -402,37 +413,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\tmp" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\test" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\test\com\nortel\oam\traceviewer\ideaplugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\test\com\nortel\oam\traceviewer\ideaplugin\gui" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\tmp" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -446,15 +431,19 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\test" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\test\com\nortel\oam\traceviewer\ideaplugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test\com\idea\plugin\traceviewer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test\com\idea\plugin\traceviewer\gui" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -468,15 +457,41 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test\com\idea\plugin\traceviewer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\test\com\idea\plugin\traceviewer\core" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin.ipr" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -494,41 +509,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin\gui" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -542,37 +531,19 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\src\com\nortel\oam\traceviewer\ideaplugin\core" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\META-INF" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer\gui" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -586,11 +557,55 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin\lib" />
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\src\com\idea\plugin\traceviewer\core" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin.ipr" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\META-INF" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin.ipr" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TraceViewerPlugin_google\lib" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -607,7 +622,7 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <showStructure Scope="false" ProjectPane="false" PackagesPane="false" Favorites="false" />
+      <showStructure Favorites="false" ProjectPane="false" Scope="false" PackagesPane="false" />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
@@ -626,8 +641,8 @@
     <property name="cvs_file_history_flatOrder1" value="1" />
     <property name="cvs_file_history_flatWidth1" value="292" />
     <property name="cvs_file_history_treeWidth1" value="292" />
-    <property name="cvs_file_history_treeWidth3" value="293" />
     <property name="cvs_file_history_treeOrder2" value="2" />
+    <property name="cvs_file_history_treeWidth3" value="293" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="cvs_file_history_flatOrder2" value="2" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -636,8 +651,8 @@
     <property name="cvs_file_history_treeWidth2" value="293" />
     <property name="cvs_file_history_flatOrder3" value="3" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="cvs_file_history_treeOrder0" value="0" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
+    <property name="cvs_file_history_treeOrder0" value="0" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="true" />
@@ -658,14 +673,14 @@
   </component>
   <component name="RestoreUpdateTree" />
   <component name="RunManager" selected="Plugin.TraceViewerPlugin">
-    <tempConfiguration default="false" name="TraceFileChooserTest.testExplorer" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="com.nortel.oam.traceviewer.ideaplugin.gui.*" />
+    <tempConfiguration default="false" name="TraceFileChooserTest.testWithDefault" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <pattern value="com.idea.plugin.traceviewer.gui.*" />
       <module name="TraceViewerPlugin" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.nortel.oam.traceviewer.ideaplugin.gui" />
-      <option name="MAIN_CLASS_NAME" value="com.nortel.oam.traceviewer.ideaplugin.gui.TraceFileChooserTest" />
-      <option name="METHOD_NAME" value="testExplorer" />
+      <option name="PACKAGE_NAME" value="com.idea.plugin.traceviewer.gui" />
+      <option name="MAIN_CLASS_NAME" value="com.idea.plugin.traceviewer.gui.TraceFileChooserTest" />
+      <option name="METHOD_NAME" value="testWithDefault" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -680,35 +695,6 @@
         <option name="Make" value="true" />
       </method>
     </tempConfiguration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <module name="" />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="C:/IntelliJ-IDEA-4.5/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -733,6 +719,35 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <log_file path="D:/Documents and Settings/cgonguet/.IntelliJIdea60/sandbox/system/log/idea.log" checked="false" skipped="true" show_all="false" alias="IDEA LOG" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="C:/IntelliJ-IDEA-4.5/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <module name="" />
     </configuration>
     <configuration default="false" name="TraceViewerPlugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="TraceViewerPlugin" />
@@ -828,27 +843,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1280" height="996" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="996" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18322475" order="3" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31982633" order="7" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630293" order="0" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26261467" order="1" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26261467" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26697353" order="9" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26628572" order="9" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
-      <window_info id="TraceViewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43004587" order="8" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="6" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17508143" order="5" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1791531" order="1" />
       <window_info id="TrackLink" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="IntelliJad Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13761468" order="11" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29714286" order="12" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119266" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31085715" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Clover" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
@@ -858,6 +871,8 @@
       <window_info id="Goals" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="9" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
+      <window_info id="TraceViewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43004587" order="8" />
+      <window_info id="IntelliJad Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13761468" order="11" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="3" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="13" />
@@ -1032,13 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TextAttributesChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.05831904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/ui/DialogWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1074,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/nortel/oam/traceviewer/ideaplugin/gui/TextAttributesChooserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="314" selection-end="314" vertical-scroll-proportion="0.3303887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/editor/EditorSettings.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1095,30 +1096,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/ConfigurationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="716" selection-end="716" vertical-scroll-proportion="0.62846583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/execution/filters/TextConsoleBuilderFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TraceViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.70414203">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TraceFileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="1033" selection-end="1033" vertical-scroll-proportion="1.1782408">
           <folding />
         </state>
       </provider>
@@ -1130,42 +1110,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/nortel/oam/traceviewer/ideaplugin/gui/TraceFileChooserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="57" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="799" selection-end="799" vertical-scroll-proportion="0.39975247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.6609964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TraceViewerToolWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="14" selection-start="5310" selection-end="5310" vertical-scroll-proportion="0.8523726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/execution/ui/ConsoleView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="intellijad://intellijad/com/intellij/execution/ui/ConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1179,66 +1124,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="intellijad://intellijad/javax/swing/JComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TextAttributesChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3416" column="64" selection-start="90462" selection-end="90462" vertical-scroll-proportion="0.5050633">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerConfigurationForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="76" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.44815466">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/TraceViewerConfigurationForm.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="18" selection-start="10113" selection-end="10113" vertical-scroll-proportion="0.31107205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TraceStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="3" selection-start="5690" selection-end="5690" vertical-scroll-proportion="0.7557118">
+        <state line="129" column="25" selection-start="4100" selection-end="4100" vertical-scroll-proportion="0.3329298">
           <folding>
-            <marker date="1213778178652" expanded="true" signature="5683:5690" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TracesAnalyzerEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceViewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="21" selection-start="5538" selection-end="5538" vertical-scroll-proportion="0.9560633">
+        <state line="14" column="2" selection-start="227" selection-end="227" vertical-scroll-proportion="0.2881356">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.08232445">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/core/TraceWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="142" selection-end="142" vertical-scroll-proportion="0.14938489">
+        <state line="16" column="13" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3292978">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/ConfigurationDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08232445">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="332" selection-end="332" vertical-scroll-proportion="0.1440678">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="13" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.4917733">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="958" selection-end="958" vertical-scroll-proportion="0.5904936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nortel/oam/traceviewer/ideaplugin/gui/TraceViewerConsoleViewImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="39" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.60456944">
+        <state line="28" column="36" selection-start="994" selection-end="994" vertical-scroll-proportion="0.7824497">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/cp_utran.traces">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.31442663">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/nortel/oam/traceviewer/ideaplugin/core/TracesAnalyzerEngineTest.java">
+    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="36" selection-start="1977" selection-end="1977" vertical-scroll-proportion="1.1245488">
-          <folding />
+        <state line="16" column="20" selection-start="448" selection-end="448" vertical-scroll-proportion="-1.7894737">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TextAttributesChooserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.40402195">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="489" selection-end="489" vertical-scroll-proportion="0.46617916">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="32" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.33272395">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerConfigurationForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerConfigurationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="35" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.64351004">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
