@@ -213,7 +213,7 @@ public class TracesAnalyzerEngine {
       String line;
       boolean inBlock = true;
       do {
-        in.mark(2048);
+        in.mark(100000);
         line = readLine(in);
         if (line == null
             || isTraceLine(line)) {
@@ -223,7 +223,11 @@ public class TracesAnalyzerEngine {
         }
       } while (inBlock);
 
-      in.reset();
+      try {
+        in.reset();
+      } catch (IOException e) {
+        Logger.getInstance(TracesAnalyzerEngine.class.getName()).warn("Cannot reset the BufferedReader. Probably due to very long line.",e);
+       }
       curLine--;
       return buf;
     }
