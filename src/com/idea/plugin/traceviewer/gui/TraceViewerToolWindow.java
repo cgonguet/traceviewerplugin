@@ -2,7 +2,6 @@ package com.idea.plugin.traceviewer.gui;
 
 import com.idea.plugin.traceviewer.core.TraceViewer;
 import com.idea.plugin.traceviewer.core.TracesAnalyzerEngine;
-import com.idea.plugin.traceviewer.TraceViewerAction;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.util.IconLoader;
@@ -11,36 +10,28 @@ import com.intellij.openapi.wm.ToolWindowAnchor;
 import com.intellij.openapi.wm.ToolWindowManager;
 
 import javax.swing.*;
-import javax.swing.text.BadLocationException;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class TraceViewerToolWindow extends JPanel {
-  private static TraceViewerToolWindow theInstance = null;
-  private static Project project;
+  private Project project;
   private static final String WINDOW_ID = "TraceViewer";
   private JTabbedPane tabbedPane;
   private ArrayList<TabData> tabs;
   private File defaultFile;
   private ToolWindow toolWindow;
 
-  public static TraceViewerToolWindow getInstance(Project project) {
-    TraceViewerToolWindow.project = project;
-    if (theInstance == null) {
-      theInstance = new TraceViewerToolWindow();
-    }
-    return theInstance;
-  }
 
   TraceViewer getTraceViewer() {
     return new TraceViewerConsoleViewImpl().init(project);
   }
 
-  private TraceViewerToolWindow() {
+  public TraceViewerToolWindow(Project project, File defaultFile) {
+    this.defaultFile = defaultFile;
+    this.project = project;
     init();
   }
 
@@ -49,13 +40,10 @@ public class TraceViewerToolWindow extends JPanel {
     toolWindow = manager.getToolWindow(WINDOW_ID);
     if (toolWindow != null) {
       manager.unregisterToolWindow(WINDOW_ID);
-      toolWindow = null;
     }
-    if (toolWindow == null) {
-      toolWindow = manager.registerToolWindow(WINDOW_ID, this, ToolWindowAnchor.BOTTOM);
-      toolWindow.setTitle(WINDOW_ID);
-      toolWindow.setIcon(IconLoader.getIcon("icons/lamp_16.png"));
-    }
+    toolWindow = manager.registerToolWindow(WINDOW_ID, this, ToolWindowAnchor.BOTTOM);
+    toolWindow.setTitle(WINDOW_ID);
+    toolWindow.setIcon(IconLoader.getIcon("icons/lamp_16.png"));
 
     tabs = new ArrayList<TabData>();
     createUI();
@@ -71,7 +59,7 @@ public class TraceViewerToolWindow extends JPanel {
     openButton.setToolTipText("Open");
     openButton.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent actionEvent) {
-        TraceViewerAction.open(project, defaultFile);
+        open();
       }
     });
     tb.add(openButton);
@@ -193,8 +181,13 @@ public class TraceViewerToolWindow extends JPanel {
     tabs.remove(selected);
   }
 
-  public void open(File file) throws IOException, BadLocationException {
-    if (file == null || !file.exists()) {
+  public void open() {
+    File file = new TraceFileChooser(toolWindow.getComponent(), defaultFile).run();
+    if (file == null) {
+      return;
+    }
+
+    if (!file.exists()) {
       Messages.showErrorDialog("Cannot open file: " + file, "Error");
       return;
     }

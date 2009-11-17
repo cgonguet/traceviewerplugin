@@ -1,11 +1,13 @@
 package com.idea.plugin.traceviewer.gui;
 
 import com.intellij.openapi.util.IconLoader;
-import com.intellij.util.Icons;
+import com.intellij.openapi.wm.ToolWindow;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
 import java.awt.*;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowFocusListener;
 import java.io.File;
 
 /**
@@ -17,9 +19,11 @@ import java.io.File;
  */
 public class TraceFileChooser extends JFileChooser {
   private File file;
+  private Component parent;
 
-  public TraceFileChooser(File file) {
+  public TraceFileChooser(Component parent, File file) {
     super(file);
+    this.parent = parent;
     this.file = file;
   }
 
@@ -40,7 +44,7 @@ public class TraceFileChooser extends JFileChooser {
       }
     });
 
-    int choice = showDialog(new Frame(), "OK");
+    int choice = showDialog(parent, "OK");
     if (choice == JFileChooser.APPROVE_OPTION) {
       return getSelectedFile();
     }
@@ -54,7 +58,7 @@ public class TraceFileChooser extends JFileChooser {
   static Icon TRACE_FILE_ICON = IconLoader.getIcon("icons/lamp_16.png");
 
   public Icon getIcon(File f) {
-    if(isTraceFile(f)){
+    if (isTraceFile(f)) {
       return TRACE_FILE_ICON;
     }
     return super.getIcon(f);

@@ -2,11 +2,15 @@
 <idea-plugin url="http://code.google.com/p/traceviewerplugin">
   <name>Trace Viewer Plugin</name>
   <description>Display and highlight traces files in a console window.</description>
-  <version>1.1</version>
+  <version>1.2</version>
   <vendor url="http://code.google.com/p/traceviewerplugin"
           email="traceviewerplugin@googlegroups.com">TraceViewerPlugin Group</vendor>
   <change-notes>
     <![CDATA[
+Version 1.2
+<ul>
+<li>Fix pb when opening twice</li>
+</ul>
 Version 1.1
 <ul>
 <li>Fix pb when reading very long line</li>

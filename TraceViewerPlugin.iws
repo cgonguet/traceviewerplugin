@@ -17,16 +17,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.iws" afterPath="$PROJECT_DIR$/TraceViewerPlugin.iws" />
+      <change type="DELETED" beforePath="D:\ALU_SVN\TVP_google\lib\junit.jar" afterPath="" />
       <change type="DELETED" beforePath="D:\ALU_SVN\TraceViewerPlugin_google\test\com\nortel" afterPath="" />
-      <change type="DELETED" beforePath="D:\ALU_SVN\TraceViewerPlugin_google\src\com\nortel" afterPath="" />
-    </list>
-    <list name="Failed commit: Default" comment="fix pb when reading very long line">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java" afterPath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java" afterPath="$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.iml" afterPath="$PROJECT_DIR$/TraceViewerPlugin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.iws" afterPath="$PROJECT_DIR$/TraceViewerPlugin.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java" afterPath="$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change type="DELETED" beforePath="D:\ALU_SVN\TraceViewerPlugin_google\src\com\nortel" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TraceViewerPlugin.ipr" afterPath="$PROJECT_DIR$/TraceViewerPlugin.ipr" />
     </list>
+    <list name="Failed commit: Default" comment="fix pb when reading very long line" />
   </component>
   <component name="ChangeListSynchronizer" />
   <component name="ChangesViewManager" flattened_view="true" />
@@ -187,61 +192,7 @@
       <file leaf-file-name="TraceViewerAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="52" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.9315069">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TraceViewerToolWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="29" selection-start="5178" selection-end="5178" vertical-scroll-proportion="0.02910959">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TracesAnalyzerEngine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="10" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.19507909">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="57" selection-start="580" selection-end="580" vertical-scroll-proportion="0.46575344">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="intellijad://intellijad/com/intellij/openapi/diagnostic/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="17" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-0.2791096">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="intellijad://intellijad/java/io/BufferedReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TracesAnalyzerEngineTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="65" selection-start="14264" selection-end="14264" vertical-scroll-proportion="0.7275923">
+            <state line="26" column="26" selection-start="911" selection-end="911" vertical-scroll-proportion="0.533101">
               <folding />
             </state>
           </provider>
@@ -250,7 +201,25 @@
       <file leaf-file-name="TraceViewerComponent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="27" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.02910959">
+            <state line="55" column="37" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.030411448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraceViewerConsoleViewImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="38" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2369338">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TraceViewerToolWindow.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="43" selection-start="5977" selection-end="5977" vertical-scroll-proportion="0.39534885">
               <folding />
             </state>
           </provider>
@@ -537,6 +506,24 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin.ipr" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TraceViewerPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TVP_google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\ALU_SVN\TVP_google\META-INF" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </subPane>
   </component>
   <component name="ProjectReloadState">
@@ -550,7 +537,7 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <showStructure Favorites="false" ProjectPane="false" Scope="false" PackagesPane="false" />
+      <showStructure Favorites="false" PackagesPane="false" Scope="false" ProjectPane="false" />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
@@ -600,15 +587,15 @@
     </key>
   </component>
   <component name="RestoreUpdateTree" />
-  <component name="RunManager" selected="Plugin.TraceViewerPlugin">
-    <tempConfiguration default="false" name="TracesAnalyzerEngineTest.testVeryLongLine" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="com.idea.plugin.traceviewer.core.*" />
+  <component name="RunManager" selected="JUnit.TraceFileChooserTest.testWithDefault">
+    <tempConfiguration default="false" name="TraceFileChooserTest.testWithDefault" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <pattern value="com.idea.plugin.traceviewer.gui.*" />
       <module name="TraceViewerPlugin" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.idea.plugin.traceviewer.core" />
-      <option name="MAIN_CLASS_NAME" value="com.idea.plugin.traceviewer.core.TracesAnalyzerEngineTest" />
-      <option name="METHOD_NAME" value="testVeryLongLine" />
+      <option name="PACKAGE_NAME" value="com.idea.plugin.traceviewer.gui" />
+      <option name="MAIN_CLASS_NAME" value="com.idea.plugin.traceviewer.gui.TraceFileChooserTest" />
+      <option name="METHOD_NAME" value="testWithDefault" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -652,19 +639,6 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <module name="" />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="TraceViewerPlugin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <log_file path="D:/Documents and Settings/cgonguet/.IntelliJIdea60/sandbox/system/log/idea.log" checked="false" skipped="true" show_all="false" alias="IDEA LOG" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -676,6 +650,19 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="TraceViewerPlugin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <log_file path="D:/Documents and Settings/cgonguet/.IntelliJIdea60/sandbox/system/log/idea.log" checked="false" skipped="true" show_all="false" alias="IDEA LOG" />
     </configuration>
     <configuration default="false" name="TraceViewerPlugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="TraceViewerPlugin" />
@@ -772,40 +759,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="996" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18322475" order="3" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31982633" order="7" />
-      <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17508143" order="5" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1791531" order="1" />
-      <window_info id="IntelliJad Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13761468" order="11" />
-      <window_info id="IDEtalk History" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Clover" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" order="4" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37155962" order="15" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2465306" order="0" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31982633" order="7" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3110749" order="0" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26514286" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3956422" order="1" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26514286" order="9" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26605505" order="9" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
+      <window_info id="TestDox" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
+      <window_info id="TraceViewer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29816514" order="8" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="6" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17508143" order="5" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1787755" order="1" />
       <window_info id="TrackLink" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29714286" order="12" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34633029" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3462857" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Clover" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" order="4" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37155962" order="15" />
       <window_info id="Goals" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="9" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
-      <window_info id="TraceViewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41972476" order="8" />
+      <window_info id="IntelliJad Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.136" order="11" />
+      <window_info id="IDEtalk History" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="3" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="13" />
+      <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979593" order="3" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="5" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="14" />
     </layout>
@@ -907,83 +894,6 @@
     <option name="myLastEditedConfigurable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/JColorChooser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/table/DefaultTableModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="14" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.027914613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/JTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="38" selection-start="11513" selection-end="11513" vertical-scroll-proportion="0.029259896">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/awt/Color.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/ui/DialogWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/table/AbstractTableModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/SwingConstants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/javax/swing/table/DefaultTableColumnModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/editor/EditorSettings.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1033,25 +943,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceStyle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="25" selection-start="4100" selection-end="4100" vertical-scroll-proportion="0.3329298">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="227" selection-end="227" vertical-scroll-proportion="0.2881356">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1068,15 +962,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/ConfigurationDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="161" selection-end="161" vertical-scroll-proportion="0.08232445">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="332" selection-end="332" vertical-scroll-proportion="0.1440678">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1102,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TextAttributesChooserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.22156398">
@@ -1123,37 +1001,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="52" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.9315069">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="29" selection-start="5178" selection-end="5178" vertical-scroll-proportion="0.02910959">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="27" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.02910959">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/jre/jre/lib/rt.jar!/java/io/BufferedReader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="intellijad://intellijad/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1165,30 +1015,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="intellijad://intellijad/com/intellij/openapi/diagnostic/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-0.2791096">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="65" selection-start="14264" selection-end="14264" vertical-scroll-proportion="0.7275923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TracesAnalyzerEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="10" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.19507909">
+        <state line="83" column="32" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.8176353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/core/TraceViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="126" selection-end="126" vertical-scroll-proportion="0.13229571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/application/ApplicationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/components/ComponentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="580" selection-end="580" vertical-scroll-proportion="0.46575344">
+        <state line="16" column="34" selection-start="592" selection-end="604" vertical-scroll-proportion="0.52918285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/core/TracesAnalyzerEngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="993" selection-end="993" vertical-scroll-proportion="0.029876977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/execution/ui/ExecutionConsole.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/ui/Messages.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/jre/jre/lib/rt.jar!/javax/swing/JFileChooser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/wm/ToolWindowManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/jre/jre/lib/rt.jar!/javax/swing/JPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/jre/jre/lib/rt.jar!/java/awt/Frame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/IntelliJ IDEA 6.0/lib/openapi.jar!/com/intellij/openapi/wm/ToolWindow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceFileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="19" selection-start="597" selection-end="597" vertical-scroll-proportion="0.39534885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/idea/plugin/traceviewer/gui/TraceFileChooserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="384" selection-end="384" vertical-scroll-proportion="0.29651162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="911" selection-end="911" vertical-scroll-proportion="0.533101">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/TraceViewerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="37" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.030411448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerConsoleViewImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2369338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/idea/plugin/traceviewer/gui/TraceViewerToolWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="43" selection-start="5977" selection-end="5977" vertical-scroll-proportion="0.39534885">
           <folding />
         </state>
       </provider>

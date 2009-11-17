@@ -18,31 +18,17 @@ import java.io.File;
  * To change this template use File | Settings | File Templates.
  */
 public class TraceViewerAction extends AnAction {
+
   public void actionPerformed(AnActionEvent e) {
-    Project project = (Project) e.getDataContext().getData(DataConstants.PROJECT);
-
-    File defaultFile = null;
     try {
+      Project project = (Project) e.getDataContext().getData(DataConstants.PROJECT);
+      File defaultFile = null;
       defaultFile = TraceViewerComponent.getInstance().init(project);
+      new TraceViewerToolWindow(project, defaultFile).open();
     } catch (Exception ex) {
-      Messages.showErrorDialog(ex.getMessage(), "Trace Viewer Error");
-      return;
-    }
-    open(project, defaultFile);
-  }
-
-  public static void open(Project project, File defaultFile) {
-    try {
-      File selectedFile = new TraceFileChooser(defaultFile).run();
-      if(selectedFile == null){
-        return;
-      }
-
-      TraceViewerToolWindow.getInstance(project).open(selectedFile);
-
-    } catch (Throwable ex) {
       ex.printStackTrace();
       Messages.showErrorDialog(ex.getMessage(), "Trace Viewer Error");
+      return;
     }
   }
 
