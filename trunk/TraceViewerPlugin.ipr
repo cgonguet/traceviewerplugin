@@ -180,59 +180,59 @@
   </component>
   <component name="IntelliJadProjectConfigComponent">
     <config>
-      <pv type="integer">3</pv>
-      <pc type="string">_cls</pc>
-      <pe type="string">_ex</pe>
-      <read-only type="boolean">false</read-only>
-      <always-exclude-recursively type="boolean">false</always-exclude-recursively>
       <noinner type="boolean">false</noinner>
-      <pp type="string">_prm</pp>
-      <indentation type="integer">4</indentation>
-      <decompile-on-navigation type="string">Always</decompile-on-navigation>
-      <stat type="boolean">false</stat>
-      <dead type="boolean">false</dead>
-      <ff type="boolean">false</ff>
-      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean" />
-      <nocode type="boolean">false</nocode>
-      <jad-path type="string" />
+      <l type="integer">64</l>
       <create-output-directory type="boolean">false</create-output-directory>
-      <dis type="boolean">false</dis>
-      <v type="boolean">false</v>
-      <b type="boolean">false</b>
-      <radix type="integer">10</radix>
+      <r type="boolean">false</r>
+      <jad-path type="string" />
+      <noctor type="boolean">false</noctor>
+      <pv type="integer">3</pv>
       <clear-and-close-console-on-success type="boolean">false</clear-and-close-console-on-success>
-      <reformat-according-to-style type="boolean">false</reformat-according-to-style>
-      <pl type="string">_lcl</pl>
-      <o type="boolean">false</o>
+      <d type="string" />
       <nl type="boolean">false</nl>
       <nonlb type="boolean">false</nonlb>
-      <space type="boolean">false</space>
-      <lradix type="integer">10</lradix>
-      <noctor type="boolean">false</noctor>
-      <r type="boolean">false</r>
-      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
-      <nodos type="boolean">false</nodos>
-      <pa type="string" />
-      <lnc type="boolean">false</lnc>
-      <d type="string" />
-      <pm type="string">_mth</pm>
-      <f type="boolean">false</f>
-      <sort type="boolean">false</sort>
-      <noconv type="boolean">false</noconv>
-      <pf type="string">_fld</pf>
-      <safe type="boolean">false</safe>
-      <t type="boolean">false</t>
       <noclass type="boolean">false</noclass>
-      <nolvt type="boolean">false</nolvt>
-      <nofd type="boolean">false</nofd>
+      <f type="boolean">false</f>
       <af type="boolean">false</af>
+      <pc type="string">_cls</pc>
+      <space type="boolean">false</space>
       <clear type="boolean">false</clear>
-      <nocast type="boolean">false</nocast>
-      <l type="integer">64</l>
-      <i type="boolean">false</i>
-      <a type="boolean">false</a>
-      <decompile-to-memory type="boolean">true</decompile-to-memory>
+      <nocode type="boolean">false</nocode>
+      <v type="boolean">false</v>
+      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
+      <reformat-according-to-style type="boolean">false</reformat-according-to-style>
+      <pa type="string" />
+      <always-exclude-recursively type="boolean">false</always-exclude-recursively>
+      <t type="boolean">false</t>
+      <noconv type="boolean">false</noconv>
+      <safe type="boolean">false</safe>
       <s type="string">java</s>
+      <indentation type="integer">4</indentation>
+      <sort type="boolean">false</sort>
+      <radix type="integer">10</radix>
+      <dead type="boolean">false</dead>
+      <lradix type="integer">10</lradix>
+      <nofd type="boolean">false</nofd>
+      <nocast type="boolean">false</nocast>
+      <read-only type="boolean">false</read-only>
+      <stat type="boolean">false</stat>
+      <o type="boolean">false</o>
+      <b type="boolean">false</b>
+      <pp type="string">_prm</pp>
+      <a type="boolean">false</a>
+      <i type="boolean">false</i>
+      <pl type="string">_lcl</pl>
+      <nolvt type="boolean">false</nolvt>
+      <pm type="string">_mth</pm>
+      <lnc type="boolean">false</lnc>
+      <decompile-to-memory type="boolean">true</decompile-to-memory>
+      <ff type="boolean">false</ff>
+      <pe type="string">_ex</pe>
+      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean" />
+      <nodos type="boolean">false</nodos>
+      <decompile-on-navigation type="string">Always</decompile-on-navigation>
+      <pf type="string">_fld</pf>
+      <dis type="boolean">false</dis>
     </config>
   </component>
   <component name="JavacSettings">
@@ -399,7 +399,7 @@
       <module fileurl="file://$PROJECT_DIR$/TraceViewerPlugin.iml" filepath="$PROJECT_DIR$/TraceViewerPlugin.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" assert-keyword="true" jdk-15="true" project-jdk-name="IDEA 6148" project-jdk-type="IDEA JDK">
+  <component name="ProjectRootManager" version="2" assert-keyword="true" jdk-15="true" project-jdk-name="IDEA 6180" project-jdk-type="IDEA JDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
   <component name="ProjectRunConfigurationManager" />

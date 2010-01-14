@@ -2,11 +2,16 @@
 <idea-plugin url="http://code.google.com/p/traceviewerplugin">
   <name>Trace Viewer Plugin</name>
   <description>Display and highlight traces files in a console window.</description>
-  <version>1.2</version>
+  <version>2.0</version>
   <vendor url="http://code.google.com/p/traceviewerplugin"
-          email="traceviewerplugin@googlegroups.com">TraceViewerPlugin Group</vendor>
+          email="traceviewerplugin@googlegroups.com">TraceViewerPlugin Group
+  </vendor>
   <change-notes>
     <![CDATA[
+Version 2.0
+<ul>
+<li>Put plugin to project level instead of application level</li>
+</ul>
 Version 1.2
 <ul>
 <li>Fix pb when opening twice</li>
@@ -22,12 +27,12 @@ Version 1.0
 ]]>
   </change-notes>
   <idea-version since-build="3000"/>
-  <application-components>
+  <project-components>
     <component>
-      <option name="workspace" value="true" />
+      <option name="workspace" value="true"/>
       <implementation-class>com.idea.plugin.traceviewer.TraceViewerComponent</implementation-class>
     </component>
-  </application-components>
+  </project-components>
   <actions>
     <action id="TraceViewerAction" class="com.idea.plugin.traceviewer.TraceViewerAction" text="Trace Viewer"
             description="View traces files">

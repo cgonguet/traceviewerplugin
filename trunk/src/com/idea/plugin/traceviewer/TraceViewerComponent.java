@@ -1,14 +1,13 @@
 package com.idea.plugin.traceviewer;
 
-import com.intellij.openapi.application.Application;
-import com.intellij.openapi.application.ApplicationManager;
-import com.intellij.openapi.components.ApplicationComponent;
+import com.idea.plugin.traceviewer.core.TraceStyle;
+import com.idea.plugin.traceviewer.gui.TraceViewerToolWindow;
+import com.intellij.openapi.components.ProjectComponent;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.*;
-import com.idea.plugin.traceviewer.core.TraceStyle;
 import org.jdom.Element;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NonNls;
@@ -17,7 +16,6 @@ import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,13 +26,14 @@ import java.util.List;
  * Time: 15:40:43
  * To change this template use File | Settings | File Templates.
  */
-public class TraceViewerComponent implements ApplicationComponent, Configurable, JDOMExternalizable {
+public class TraceViewerComponent implements ProjectComponent, Configurable, JDOMExternalizable {
+
   public String reposDir;
-  public String defaultFile = "cp_utran.traces";
+  public String defaultFile = "";
+
   public String traceFormat = "^[0-9]+-[0-9]+-[0-9]+ [0-9]+:[0-9]+:[0-9]+,[0-9]+ ";
   public List<TraceStyle> traceStyles = new ArrayList<TraceStyle>();
   public boolean printByBlock = true;
-
 
   {
     traceStyles.add(new TraceStyle("ERROR.+", Color.RED, Color.WHITE, Font.BOLD, true, false));
@@ -50,38 +49,63 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
   private static final String TRACESTYLES_ELEMENT = "tracestyles";
   private static final String TRACESTYLE_ELEMENT_PREFIX = "tracestyle_";
 
-  public TraceViewerComponent() {
+  private static TraceViewerComponent theInstance = null;
+  protected TraceViewerToolWindow toolWindow;
+
+  private TraceViewerComponent() {
   }
 
   public static TraceViewerComponent getInstance() {
-    Application application = ApplicationManager.getApplication();
-    return application.getComponent(TraceViewerComponent.class);
+    if (theInstance == null) {
+      Logger.getInstance(TraceViewerComponent.class.getName()).info("getInstance(): create new instance");
+      theInstance = new TraceViewerComponent();
+    }
+    return theInstance;
   }
 
   public void initComponent() {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("initComponent()");
+    theInstance = this;
   }
 
   public void disposeComponent() {
-    // TODO: insert component disposal logic here
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("disposeComponent()");
+    theInstance = null;
   }
 
-  synchronized public File init(Project project) throws Exception {
+  public synchronized void init(Project project) throws Exception {
+    if (toolWindow == null) {
+      toolWindow = new TraceViewerToolWindow(project, getFileOrDirToOpen(project));
+    }
+    toolWindow.open();
+  }
+
+  private File getFileOrDirToOpen(Project project) throws Exception {
     File absoluteDefaultFile = new File(reposDir + File.separator + defaultFile);
     if (absoluteDefaultFile.exists() && absoluteDefaultFile.isFile()) {
       return absoluteDefaultFile;
     }
-    if(reposDir!=null)
-    {
-      File dir = new File(reposDir);
-      if (dir.exists()) {
-        return dir;
+
+    if (reposDir == null) {
+      String projectPath = getProjectPath(project);
+      reposDir = projectPath + "/tmp";
+      if (!new File(reposDir).exists()) {
+        reposDir = projectPath;
       }
     }
+
+    File dir = new File(reposDir);
+    if (dir.exists()) {
+      return dir;
+    }
+
+    Logger.getInstance(TraceViewerComponent.class.getName())
+            .warn("getFileOrDirToOpen(): cannot open default dir " + dir.getAbsolutePath());
     throw new Exception("The default directory is not valid.\nGo to 'Settings/TraceViewer'.");
   }
 
   public String getComponentName() {
-    return "TraceViewerComponent";
+    return "TraceViewerPlugin";
   }
 
   public String getReposDir() {
@@ -145,6 +169,8 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
 
   public JComponent createComponent() {
     if (form == null) {
+      Logger.getInstance(TraceViewerComponent.class.getName())
+              .info("createComponent(): new TraceViewerConfigurationForm");
       form = new TraceViewerConfigurationForm();
     }
     return form.getRootComponent();
@@ -155,12 +181,16 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
   }
 
   public void apply() throws ConfigurationException {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("apply new configuration");
+
     if (form != null) {
       form.getData(this);
     }
   }
 
   public void reset() {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("reset configuration");
+
     if (form != null) {
       form.setData(this);
     }
@@ -171,6 +201,7 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
   }
 
   public void readExternal(Element element) throws InvalidDataException {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("read external configuration");
     DefaultJDOMExternalizer.readExternal(this, element);
 
     final Element parentElement = element.getChild(TRACESTYLES_ELEMENT);
@@ -194,6 +225,8 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
 
   public void writeExternal(Element element) throws WriteExternalException {
 
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("write external configuration");
+
     DefaultJDOMExternalizer.writeExternal(this, element);
 
     Element parentElement = new Element(TRACESTYLES_ELEMENT);
@@ -204,6 +237,21 @@ public class TraceViewerComponent implements ApplicationComponent, Configurable,
       parentElement.addContent(entryElement);
     }
     element.addContent(parentElement);
+  }
+
+  public void projectOpened() {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("projectOpened()");
+  }
+
+  public void projectClosed() {
+    Logger.getInstance(TraceViewerComponent.class.getName()).info("projectClosed()");
+  }
+
+
+  public static String getProjectPath(Project project) {
+    String projectFilePath = project.getProjectFilePath();
+    String projectPath = projectFilePath.replaceFirst(project.getProjectFile().getName(), "");
+    return projectPath;
   }
 
 }
