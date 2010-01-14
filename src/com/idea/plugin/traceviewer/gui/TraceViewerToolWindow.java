@@ -116,15 +116,6 @@ public class TraceViewerToolWindow extends JPanel {
     });
     tb.add(filterButton);
 
-    JButton configButton = new JButton(IconLoader.getIcon("icons/prefs.png"));
-    configButton.setToolTipText("Configuration");
-    configButton.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent actionEvent) {
-        new ConfigurationDialog().execute();
-      }
-    });
-    tb.add(configButton, JToolBar.SOUTH);
-
     add(tb, BorderLayout.WEST);
 
     tabbedPane = new JTabbedPane();
