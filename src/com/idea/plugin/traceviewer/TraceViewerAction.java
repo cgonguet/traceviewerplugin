@@ -18,7 +18,7 @@ public class TraceViewerAction extends AnAction {
   public void actionPerformed(AnActionEvent e) {
     try {
       Project project = (Project) e.getDataContext().getData(DataConstants.PROJECT);
-      TraceViewerComponent.getInstance().init(project);
+      TraceViewerComponent.getInstance(project).init();
     } catch (Exception ex) {
       ex.printStackTrace();
       Messages.showErrorDialog(ex.getMessage(), "Trace Viewer Error");

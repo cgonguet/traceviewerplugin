@@ -1,12 +1,12 @@
 package com.idea.plugin.traceviewer.core;
 
+import com.idea.plugin.traceviewer.TraceViewerComponent;
 import com.intellij.execution.ui.ConsoleViewContentType;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.progress.ProgressManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Key;
-import com.idea.plugin.traceviewer.TraceViewerComponent;
 
 import javax.swing.text.BadLocationException;
 import java.io.*;
@@ -42,9 +42,9 @@ public class TracesAnalyzerEngine {
   public void run() throws IOException, BadLocationException {
     viewer.reset();
 
-    styles = TraceViewerComponent.getInstance().getTraceStyles();
-    traceFormat = TraceViewerComponent.getInstance().getTraceFormat();
-    printByBlock = TraceViewerComponent.getInstance().getPrintByBlock();
+    styles = TraceViewerComponent.getInstance(project).getTraceStyles();
+    traceFormat = TraceViewerComponent.getInstance(project).getTraceFormat();
+    printByBlock = TraceViewerComponent.getInstance(project).getPrintByBlock();
 
     registerStyles();
 
@@ -226,8 +226,9 @@ public class TracesAnalyzerEngine {
       try {
         in.reset();
       } catch (IOException e) {
-        Logger.getInstance(TracesAnalyzerEngine.class.getName()).warn("Cannot reset the BufferedReader. Probably due to very long line.",e);
-       }
+        Logger.getInstance(TracesAnalyzerEngine.class.getName())
+                .warn("Cannot reset the BufferedReader. Probably due to very long line.", e);
+      }
       curLine--;
       return buf;
     }

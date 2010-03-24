@@ -33,6 +33,9 @@
       <entry name="?*.tld" />
     </wildcardResourcePatterns>
   </component>
+  <component name="CopyrightManager" default="">
+    <module2copyright />
+  </component>
   <component name="DataSourceManagerImpl" />
   <component name="DependenciesAnalyzeManager">
     <option name="myForwardDirection" value="false" />
@@ -52,6 +55,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="EntryPointsManager">
     <entry_points />
   </component>
@@ -88,28 +92,21 @@
             <option name="myVal" value="100" />
           </server>
         </used_levels>
-        <inspection_tool class="UnusedDeclaration" level="WARNING" enabled="false">
-          <option name="ADD_MAINS_TO_ENTRIES" value="true" />
-          <option name="ADD_JUNIT_TO_ENTRIES" value="true" />
-          <option name="ADD_EJB_TO_ENTRIES" value="true" />
-          <option name="ADD_APPLET_TO_ENTRIES" value="true" />
-          <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
-          <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
-        </inspection_tool>
-        <inspection_tool class="WeakerAccess" level="WARNING" enabled="false">
-          <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
-          <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
-          <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
-        </inspection_tool>
+        <inspection_tool class="BreakStatementWithLabelJS" level="WARNING" enabled="false" />
         <inspection_tool class="CanBeFinal" level="WARNING" enabled="false">
           <option name="REPORT_CLASSES" value="false" />
           <option name="REPORT_METHODS" value="false" />
           <option name="REPORT_FIELDS" value="true" />
         </inspection_tool>
-        <inspection_tool class="UnusedParameters" level="WARNING" enabled="false" />
-        <inspection_tool class="SameParameterValue" level="WARNING" enabled="false" />
-        <inspection_tool class="UnusedReturnValue" level="WARNING" enabled="false" />
-        <inspection_tool class="SameReturnValue" level="WARNING" enabled="false" />
+        <inspection_tool class="ConstantConditions" level="WARNING" enabled="false">
+          <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+        </inspection_tool>
+        <inspection_tool class="ContinueOrBreakFromFinallyBlockJS" level="WARNING" enabled="false" />
+        <inspection_tool class="ContinueStatementJS" level="WARNING" enabled="false" />
+        <inspection_tool class="DefaultNotLastCaseInSwitchJS" level="WARNING" enabled="false" />
+        <inspection_tool class="Deprecation" level="WARNING" enabled="false" />
+        <inspection_tool class="EmptyCatchBlockJS" level="WARNING" enabled="false" />
+        <inspection_tool class="EmptyFinallyBlockJS" level="WARNING" enabled="false" />
         <inspection_tool class="EmptyMethod" level="WARNING" enabled="false">
           <option name="EXCLUDE_ANNOS">
             <value>
@@ -117,7 +114,6 @@
             </value>
           </option>
         </inspection_tool>
-        <inspection_tool class="RedundantThrows" level="WARNING" enabled="false" />
         <inspection_tool class="JavaDoc" level="WARNING" enabled="false">
           <option name="TOP_LEVEL_CLASS_OPTIONS">
             <value>
@@ -147,92 +143,95 @@
           <option name="IGNORE_JAVADOC_PERIOD" value="true" />
           <option name="myAdditionalJavadocTags" value="" />
         </inspection_tool>
-        <inspection_tool class="Deprecation" level="WARNING" enabled="false" />
-        <inspection_tool class="EqualsAndHashcode" level="WARNING" enabled="false" />
-        <inspection_tool class="ConstantConditions" level="WARNING" enabled="false">
-          <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
-        </inspection_tool>
+        <inspection_tool class="LoopStatementThatDoesntLoopJS" level="WARNING" enabled="false" />
+        <inspection_tool class="NestedAssignmentJS" level="WARNING" enabled="false" />
+        <inspection_tool class="NestedConditionalExpressionJS" level="WARNING" enabled="false" />
+        <inspection_tool class="NestedSwitchStatementJS" level="WARNING" enabled="false" />
+        <inspection_tool class="PointlessArithmeticExpressionJS" level="WARNING" enabled="false" />
+        <inspection_tool class="RedundantCast" level="WARNING" enabled="false" />
+        <inspection_tool class="RedundantThrows" level="WARNING" enabled="false" />
+        <inspection_tool class="ReturnFromFinallyBlockJS" level="WARNING" enabled="false" />
+        <inspection_tool class="SameParameterValue" level="WARNING" enabled="false" />
+        <inspection_tool class="SameReturnValue" level="WARNING" enabled="false" />
+        <inspection_tool class="TailRecursionJS" level="WARNING" enabled="false" />
         <inspection_tool class="UnusedAssignment" level="WARNING" enabled="false">
           <option name="REPORT_PREFIX_EXPRESSIONS" value="false" />
           <option name="REPORT_POSTFIX_EXPRESSIONS" value="true" />
           <option name="REPORT_REDUNDANT_INITIALIZER" value="true" />
         </inspection_tool>
-        <inspection_tool class="RedundantCast" level="WARNING" enabled="false" />
-        <inspection_tool class="LocalCanBeFinal" level="WARNING" enabled="false">
-          <option name="REPORT_VARIABLES" value="true" />
-          <option name="REPORT_PARAMETERS" value="true" />
+        <inspection_tool class="UnusedDeclaration" level="WARNING" enabled="false">
+          <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+          <option name="ADD_JUNIT_TO_ENTRIES" value="true" />
+          <option name="ADD_EJB_TO_ENTRIES" value="true" />
+          <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+          <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+          <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
         </inspection_tool>
-        <inspection_tool class="ContinueOrBreakFromFinallyBlockJS" level="WARNING" enabled="false" />
-        <inspection_tool class="EmptyCatchBlockJS" level="WARNING" enabled="false" />
-        <inspection_tool class="EmptyFinallyBlockJS" level="WARNING" enabled="false" />
-        <inspection_tool class="ReturnFromFinallyBlockJS" level="WARNING" enabled="false" />
-        <inspection_tool class="TailRecursionJS" level="WARNING" enabled="false" />
-        <inspection_tool class="BreakStatementWithLabelJS" level="WARNING" enabled="false" />
-        <inspection_tool class="ContinueStatementJS" level="WARNING" enabled="false" />
-        <inspection_tool class="NestedSwitchStatementJS" level="WARNING" enabled="false" />
-        <inspection_tool class="NestedAssignmentJS" level="WARNING" enabled="false" />
-        <inspection_tool class="NestedConditionalExpressionJS" level="WARNING" enabled="false" />
-        <inspection_tool class="DefaultNotLastCaseInSwitchJS" level="WARNING" enabled="false" />
-        <inspection_tool class="LoopStatementThatDoesntLoopJS" level="WARNING" enabled="false" />
-        <inspection_tool class="PointlessArithmeticExpressionJS" level="WARNING" enabled="false" />
+        <inspection_tool class="UnusedParameters" level="WARNING" enabled="false" />
+        <inspection_tool class="UnusedReturnValue" level="WARNING" enabled="false" />
+        <inspection_tool class="WeakerAccess" level="WARNING" enabled="false">
+          <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+          <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+          <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+        </inspection_tool>
       </profile>
     </profiles>
   </component>
   <component name="IntelliJadProjectConfigComponent">
     <config>
-      <noinner type="boolean">false</noinner>
-      <l type="integer">64</l>
-      <create-output-directory type="boolean">false</create-output-directory>
-      <r type="boolean">false</r>
-      <jad-path type="string" />
-      <noctor type="boolean">false</noctor>
-      <pv type="integer">3</pv>
-      <clear-and-close-console-on-success type="boolean">false</clear-and-close-console-on-success>
-      <d type="string" />
-      <nl type="boolean">false</nl>
-      <nonlb type="boolean">false</nonlb>
-      <noclass type="boolean">false</noclass>
-      <f type="boolean">false</f>
-      <af type="boolean">false</af>
       <pc type="string">_cls</pc>
-      <space type="boolean">false</space>
-      <clear type="boolean">false</clear>
-      <nocode type="boolean">false</nocode>
-      <v type="boolean">false</v>
-      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
-      <reformat-according-to-style type="boolean">false</reformat-according-to-style>
       <pa type="string" />
-      <always-exclude-recursively type="boolean">false</always-exclude-recursively>
-      <t type="boolean">false</t>
+      <lnc type="boolean">false</lnc>
+      <space type="boolean">false</space>
+      <ff type="boolean">false</ff>
+      <clear type="boolean">false</clear>
+      <decompile-to-memory type="boolean">true</decompile-to-memory>
+      <af type="boolean">false</af>
       <noconv type="boolean">false</noconv>
       <safe type="boolean">false</safe>
-      <s type="string">java</s>
-      <indentation type="integer">4</indentation>
+      <reformat-according-to-style type="boolean">false</reformat-according-to-style>
+      <a type="boolean">false</a>
+      <pl type="string">_lcl</pl>
       <sort type="boolean">false</sort>
-      <radix type="integer">10</radix>
+      <nolvt type="boolean">false</nolvt>
+      <pf type="string">_fld</pf>
+      <pv type="integer">3</pv>
       <dead type="boolean">false</dead>
+      <noclass type="boolean">false</noclass>
       <lradix type="integer">10</lradix>
-      <nofd type="boolean">false</nofd>
+      <pm type="string">_mth</pm>
+      <pe type="string">_ex</pe>
+      <l type="integer">64</l>
+      <t type="boolean">false</t>
+      <use-project-specific-settings type="boolean">false</use-project-specific-settings>
+      <nonlb type="boolean">false</nonlb>
+      <create-output-directory type="boolean">false</create-output-directory>
+      <radix type="integer">10</radix>
+      <d type="string" />
+      <o type="boolean">false</o>
+      <clear-and-close-console-on-success type="boolean">false</clear-and-close-console-on-success>
+      <s type="string">java</s>
       <nocast type="boolean">false</nocast>
       <read-only type="boolean">false</read-only>
+      <noctor type="boolean">false</noctor>
       <stat type="boolean">false</stat>
-      <o type="boolean">false</o>
-      <b type="boolean">false</b>
-      <pp type="string">_prm</pp>
-      <a type="boolean">false</a>
-      <i type="boolean">false</i>
-      <pl type="string">_lcl</pl>
-      <nolvt type="boolean">false</nolvt>
-      <pm type="string">_mth</pm>
-      <lnc type="boolean">false</lnc>
-      <decompile-to-memory type="boolean">true</decompile-to-memory>
-      <ff type="boolean">false</ff>
-      <pe type="string">_ex</pe>
-      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean" />
-      <nodos type="boolean">false</nodos>
       <decompile-on-navigation type="string">Always</decompile-on-navigation>
-      <pf type="string">_fld</pf>
+      <nl type="boolean">false</nl>
+      <pp type="string">_prm</pp>
+      <i type="boolean">false</i>
+      <exclusion-table-model type="table-model" model-class="net.stevechaloner.intellijad.config.ExclusionTableModel" content-types="string,boolean,boolean" />
+      <noinner type="boolean">false</noinner>
+      <b type="boolean">false</b>
+      <indentation type="integer">4</indentation>
+      <nofd type="boolean">false</nofd>
+      <r type="boolean">false</r>
+      <nocode type="boolean">false</nocode>
+      <v type="boolean">false</v>
+      <jad-path type="string" />
+      <always-exclude-recursively type="boolean">false</always-exclude-recursively>
       <dis type="boolean">false</dis>
+      <nodos type="boolean">false</nodos>
+      <f type="boolean">false</f>
     </config>
   </component>
   <component name="JavacSettings">
@@ -394,6 +393,9 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDetails">
+    <option name="projectName" value="TraceViewerPlugin" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TraceViewerPlugin.iml" filepath="$PROJECT_DIR$/TraceViewerPlugin.iml" />
@@ -411,6 +413,9 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
   </component>
   <component name="StarteamVcsAdapter" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
   <component name="TestDox.ConfigurationController">
     <option name="allowCustomPackages" value="false" />
     <option name="testNameTemplate" value="&lt;classname&gt;Test" />
@@ -425,6 +430,9 @@
     <option name="testMethodAnnotation" />
     <option name="usingAnnotations" value="false" />
     <custom-packaging allow="false" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
   </component>
   <component name="VssVcs" />
   <component name="com.intellij.jsf.UserDefinedFacesConfigs">

@@ -2,12 +2,16 @@
 <idea-plugin url="http://code.google.com/p/traceviewerplugin">
   <name>Trace Viewer Plugin</name>
   <description>Display and highlight traces files in a console window.</description>
-  <version>2.0</version>
+  <version>2.1</version>
   <vendor url="http://code.google.com/p/traceviewerplugin"
           email="traceviewerplugin@googlegroups.com">TraceViewerPlugin Group
   </vendor>
   <change-notes>
     <![CDATA[
+Version 2.1
+<ul>
+<li>Fix multi projects case</li>
+</ul>
 Version 2.0
 <ul>
 <li>Put plugin to project level instead of application level</li>
