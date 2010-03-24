@@ -51,16 +51,19 @@ public class TraceViewerComponent implements ProjectComponent, Configurable, JDO
 
   private static TraceViewerComponent theInstance = null;
   protected TraceViewerToolWindow toolWindow;
+  private Project project;
 
-  private TraceViewerComponent() {
+  public TraceViewerComponent(Project project) {
+    this.project = project;
   }
 
-  public static TraceViewerComponent getInstance() {
-    if (theInstance == null) {
-      Logger.getInstance(TraceViewerComponent.class.getName()).info("getInstance(): create new instance");
-      theInstance = new TraceViewerComponent();
-    }
-    return theInstance;
+  public static TraceViewerComponent getInstance(Project project) {
+    return project.getComponent(TraceViewerComponent.class);
+//    if (theInstance == null) {
+//      Logger.getInstance(TraceViewerComponent.class.getName()).info("getInstance(): create new instance");
+//      theInstance = new TraceViewerComponent();
+//    }
+//    return theInstance;
   }
 
   public void initComponent() {
@@ -73,7 +76,7 @@ public class TraceViewerComponent implements ProjectComponent, Configurable, JDO
     theInstance = null;
   }
 
-  public synchronized void init(Project project) throws Exception {
+  public synchronized void init() throws Exception {
     if (toolWindow == null) {
       toolWindow = new TraceViewerToolWindow(project, getFileOrDirToOpen(project));
     }
